@@ -27,7 +27,7 @@ function checkCodeInput(){
 }
 
 window.onload = function(){
-    r=request("POST", "https://cors-anywhere.herokuapp.com/https://coop-interview.outstem.io/validate/", {code:"123456"});
+    r=request("POST", "https://coop-interview.outstem.io/validate/", {code:"123456"});
     console.log(r);
     checkCodeInput();
 }
